@@ -144,7 +144,7 @@ span {
 }
 
 .section-trayectoria {
-    background-image: url(Imagenes/Fondo\ trayectoria.png);
+    background-image: url(./imagenes/fondo\ trayectoria.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,7 +184,7 @@ span {
 }
 
 .proyectos-section {
-    background-image: url(imagenes/proyectos.jpg);
+    background-image: url(./imagenes/proyectos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -220,7 +220,7 @@ span {
 }
 
 .sobre-mi-section {
-    background-image: url(Imagenes/Sobre\ Mi\ Fondo.png);
+    background-image: url(./imagenes/sobre\ mi\ Fondo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
