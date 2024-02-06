@@ -9,13 +9,6 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
-.wrapper {
-    width: 100vw;
-    height: 100vh;
-    background-color: #05091F;
-    color: #fff;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -58,8 +51,12 @@
     color: #191c32;
     border-radius: 15px;
 }
-
-
+.wrapper {
+    width: 100vw;
+    height: 80vh;
+    background-color: #05091F;
+    color: #fff;
+}
 .section-home {
     margin: 0 auto;
     width: 87vw;
@@ -442,5 +439,19 @@ label {
     }
     .footer-content p {
         font-size: 3.5vw;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .subtitle {
+        font-size: 1.3rem;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-top: 20px;
     }
 }
