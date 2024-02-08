@@ -8,7 +8,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/http://linkedin.com/in/mauriciomarinlucero" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="http://linkedin.com/in/mauriciomarinlucero" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/mauriciomarinlucero?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoJDwr2fmTp%2Brea7RcLGlxw%3D%3D" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="http://linkedin.com/in/mauriciomarinlucero" height="30" width="40" /></a>
 <a href="https://instagram.com/@mauri15_zurdo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@mauri15_zurdo" height="30" width="40" /></a>
 </p>
 
