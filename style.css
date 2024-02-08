@@ -454,4 +454,64 @@ label {
     .card {
         margin-top: 20px;
     }
+    .title-pro {
+        font-size: 2.5rem;
+    }
+    .subtitle-pro {
+        font-size: 1.3rem;
+    }
+    .container-proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-sob {
+        font-size: 2.5rem;
+    }
+    .subtitle-sob {
+        font-size: 1.3rem;
+    }
+    .subtitles {
+        font-size: 2.1rem;
+    }
+    .container-conocimientos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-section {
+        height: 140vh;
+    }
+    .title-cont {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info {
+        margin: 0;
+        padding: 10px;
+    }
+    .cont-title {
+        padding-top: 0;
+        font-size: 1.3rem;
+    }
+    .main-text {
+        margin-top: 50px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .info {
+        width: 75vh;
+    }
+    .form {
+        width: 48vh;
+        padding-top: 10px;
+        height: 80vh;
+    }
+    .main-text-form {
+        padding-bottom: 10px;
+    }
 }
