@@ -1,0 +1,36 @@
+/*Proyectos*/
+
+.proyectos-section {
+    background-image: url(../imagenes/proyectos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proyectos {
+    text-align: center;
+    padding: 25px 0;
+}
+.title-pro {
+    color: #ffffff;
+    display: inline;
+    width: auto;
+    font-size: 3.5rem;
+    font-weight: 700;
+    border-bottom: 1px solid #26858f;
+}
+.subtitle-pro {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+.container-proyectos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/*Fin Proyectos*/

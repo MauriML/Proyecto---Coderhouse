@@ -1,0 +1,160 @@
+/*Mobile*/
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+  
+    .brand {
+      padding: 10px 20px;
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .menu {
+      padding: 15px 25px;
+      display: flex;
+  
+      li {
+        font-size: 0.85em;
+      }
+  
+      a {
+        padding: 5px 10px;
+      }
+    }
+  
+    .section-home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    section h1 {
+      font-size: 7vw;
+    }
+  
+    .profile-img {
+      height: 50vh;
+      width: 35vh;
+      margin-left: 0;
+      margin-bottom: 50px;
+      justify-content: center;
+    }
+  
+    .social-network {
+      width: 150px;
+    }
+  
+    .footer-content p {
+      font-size: 3.5vw;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      margin-top: 20px;
+    }
+  
+    .title-pro {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle-pro {
+      font-size: 1.3rem;
+    }
+  
+    .container-proyectos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .title-sob {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle-sob {
+      font-size: 1.3rem;
+    }
+  
+    .subtitles {
+      font-size: 2.1rem;
+    }
+  
+    .container-conocimientos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-section {
+      height: 140vh;
+    }
+  
+    .title-cont {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .contact-info {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .cont-title {
+      padding-top: 0;
+      font-size: 1.3rem;
+    }
+  
+    .main-text {
+      margin-top: 50px;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  
+    .info {
+      width: 50vh;
+      padding-left: 0;
+  
+      li {
+          font-size: 1.2rem;
+  
+          b {
+              font-size: 1.0rem;
+          }
+      }
+    }
+
+    .form {
+      width: 48vh;
+      padding-top: 10px;
+      height: 80vh;
+    }
+
+    .main-text-form {
+      padding-bottom: 10px;
+    }
+}
+
+/*Fin Mobile*/

@@ -1,0 +1,47 @@
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #05091F;
+}
+.brand {
+    margin-top: -7px;
+    font-size: 36px;
+    color: #fff;
+
+    span {
+      color: #0377E3;
+    }
+}
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-weight: 500;
+    padding-top: 10px;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 20px;
+    }
+
+    .active {
+      color: #0377E3;
+      font-weight: 550;
+    }
+
+    a:hover {
+      background-color: #0377E3;
+      color: #191c32;
+      border-radius: 15px;
+    }
+}
+
+/*Fin Navbar*/

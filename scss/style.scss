@@ -1,0 +1,21 @@
+@import url('c:\Users\mauri\Downloads\Montserrat.zip');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+@import "header";
+@import "home";
+@import "trayectoria";
+@import "proyectos";
+@import "sobremi";
+@import "contacto";
+@import "footer";
+@import "mobile";

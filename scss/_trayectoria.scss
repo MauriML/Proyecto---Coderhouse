@@ -1,0 +1,40 @@
+/*Trayectoria*/
+
+.section-trayectoria {
+    background-image: url(../imagenes/fondo\ trayectoria.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.trayectoria {
+    text-align: center;
+    padding: 25px 0;
+}
+.title {
+    color: #ffffff;
+    display: inline;
+    width: auto;
+    font-size: 3.5rem;
+    font-weight: 700;
+    border-bottom: 1px solid #26858f;
+}
+.subtitle {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.container {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.card {
+    width: 18rem;
+}
+
+/*Fin Trayectoria*/
