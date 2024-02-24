@@ -1,16 +1,16 @@
-/*Trayectoria*/
+/*Proyectos*/
 
-.section-trayectoria {
-    background-image: url(../imagenes/fondo\ trayectoria.png);
+.proyectos-section {
+    background-image: url(../imagenes/proyectos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.trayectoria {
+.proyectos {
     text-align: center;
-    padding: 25px 0;
+    padding: 15px 0;
 }
-.title {
+.title-pro {
     color: #ffffff;
     display: inline;
     width: auto;
@@ -18,23 +18,18 @@
     font-weight: 700;
     border-bottom: 1px solid #26858f;
 }
-.subtitle {
+.subtitle-pro {
     color: #ffffff;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 20px;
+    margin-bottom: 1rem;
 }
-.container {
+.container-proyectos {
     display: flex;
-    width: 50%;
     justify-content: space-around;
+    width: 100%;
     padding-top: 10px;
 }
-.card {
-    width: 18rem;
-}
 
-/*Fin Trayectoria*/
+/*Fin Proyectos*/

@@ -2,14 +2,14 @@
 
 .wrapper {
     width: 100vw;
-    height: 80vh;
+    height: 75.6vh;
     background-color: #05091F;
     color: #fff;
 }
 .section-home {
     margin: 0 auto;
-    width: 87vw;
-    height: 80vh;
+    width: 85vw;
+    height: 70vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -44,10 +44,10 @@ span {
 .profile-img {
     border: 7px solid #0377E3;
     width: -360px;
-    height: 520px;
+    height: 450px;
     z-index: 1;
     border-radius: 388px;
-    margin-left: 150px;
+    margin-left: 100px;
     background-color: #717171;
 }
 

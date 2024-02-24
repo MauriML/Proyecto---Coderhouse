@@ -9,11 +9,11 @@
   box-sizing: border-box;
 }
 
-@import "header";
-@import "home";
-@import "trayectoria";
-@import "proyectos";
-@import "sobremi";
-@import "contacto";
-@import "footer";
-@import "mobile";
+@import "components/header";
+@import "components/home";
+@import "components/trayectoria";
+@import "components/proyectos";
+@import "components/sobremi";
+@import "components/contacto";
+@import "components/footer";
+@import "components/mobile";

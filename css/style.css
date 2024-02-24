@@ -55,15 +55,15 @@
 /*Home*/
 .wrapper {
   width: 100vw;
-  height: 80vh;
+  height: 75.6vh;
   background-color: #05091F;
   color: #fff;
 }
 
 .section-home {
   margin: 0 auto;
-  width: 87vw;
-  height: 80vh;
+  width: 85vw;
+  height: 70vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -102,10 +102,10 @@ span {
 .profile-img {
   border: 7px solid #0377E3;
   width: -360px;
-  height: 520px;
+  height: 450px;
   z-index: 1;
   border-radius: 388px;
-  margin-left: 150px;
+  margin-left: 100px;
   background-color: #717171;
 }
 
@@ -120,7 +120,7 @@ span {
 
 .trayectoria {
   text-align: center;
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
 .title {
@@ -134,7 +134,7 @@ span {
 
 .subtitle {
   color: #ffffff;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -164,7 +164,7 @@ span {
 
 .proyectos {
   text-align: center;
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
 .title-pro {
@@ -186,7 +186,6 @@ span {
 
 .container-proyectos {
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   width: 100%;
   padding-top: 10px;
@@ -199,11 +198,15 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 75.6vh;
 }
 
 .sobre-mi {
   text-align: center;
-  padding: 25px 0;
+  padding: 15px 0;
+}
+.sobre-mi .card-info-personal a .download-cv {
+  margin-top: 0;
 }
 
 .title-sob {
@@ -229,14 +232,14 @@ span {
   color: #fff;
   display: inline-block;
   font-size: 2.5rem;
-  font-weight: 300;
-  padding: 3rem;
+  font-weight: 400;
+  padding: 1rem;
 }
 
 .container-conocimientos {
   display: flex;
   justify-content: space-around;
-  margin-top: 0.25rem;
+  margin-top: -0.75rem;
   width: 100%;
 }
 
@@ -266,7 +269,7 @@ span {
 .contact-section {
   background-color: #05091F;
   width: 100vw;
-  height: 100vh;
+  height: 75.5vh;
 }
 
 .contact {
@@ -283,8 +286,8 @@ span {
 }
 
 .contact-form {
-  width: 70%;
-  margin: 20px auto;
+  width: 90%;
+  margin: 5px auto;
   padding: auto;
   display: flex;
   justify-content: space-between;
@@ -294,14 +297,13 @@ span {
   margin: 20px auto;
   text-align: start;
   justify-content: start;
-  padding: 30px;
 }
 
 .cont-title {
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -328,9 +330,9 @@ span {
   display: flex;
   flex-direction: column;
   width: 30vw;
-  margin: 20px auto;
+  margin: 7px auto;
   justify-content: end;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .main-text-form {
@@ -354,7 +356,6 @@ label {
   color: #fff;
 }
 .form textarea {
-  height: 150px;
   background: none;
   color: #fff;
   padding: 1.5em;
@@ -384,7 +385,7 @@ label {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 115px;
+  height: 90px;
   background-color: #0377E3;
   padding-top: 10px;
 }
@@ -442,6 +443,7 @@ label {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 86vw;
   }
   section h1 {
     font-size: 7vw;
@@ -450,7 +452,8 @@ label {
     height: 50vh;
     width: 35vh;
     margin-left: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: -10px;
     justify-content: center;
   }
   .social-network {
@@ -463,7 +466,10 @@ label {
     font-size: 2.5rem;
   }
   .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 0;
   }
   .container {
     display: flex;
@@ -477,7 +483,7 @@ label {
     font-size: 2.5rem;
   }
   .subtitle-pro {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .container-proyectos {
     display: flex;
