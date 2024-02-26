@@ -490,6 +490,9 @@ label {
     flex-direction: column;
     align-items: center;
   }
+  .sobre-mi-section {
+    height: auto;
+  }
   .title-sob {
     font-size: 2.5rem;
   }
@@ -522,6 +525,7 @@ label {
   .cont-title {
     padding-top: 0;
     font-size: 1.3rem;
+    margin-top: 15px;
   }
   .main-text {
     margin-top: 50px;
@@ -531,6 +535,7 @@ label {
   .info {
     width: 50vh;
     padding-left: 0;
+    margin-left: 50px;
   }
   .info li {
     font-size: 1.2rem;
