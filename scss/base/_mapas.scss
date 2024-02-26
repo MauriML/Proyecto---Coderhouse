@@ -1,0 +1,19 @@
+/*Mapas*/
+
+$bg-btn-enviar: (
+    border-standar: none,
+    padding-standar: 10px 20px,
+    background-standar: rgb(2,0,36),
+    background-hover: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(53,53,204,1) 21%, rgba(0,212,255,1) 100%),
+);
+
+.btn-submit {
+    border: map-get($bg-btn-enviar , border-standar);
+    padding: map-get($bg-btn-enviar , padding-standar);
+}
+
+.btn-submit:hover {
+    background: map-get($bg-btn-enviar , background-standar);
+    background: map-get($bg-btn-enviar , background-hover);
+}
+/*Mapas*/

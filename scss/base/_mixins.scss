@@ -1,0 +1,11 @@
+/*Mixins*/
+
+@mixin card ($border, $color) {
+    border: $border;
+    color: $color;
+}
+
+.card {
+    @include card(1px solid rgb(0, 0, 0), rgb(0, 0, 0))
+}
+/*Mixins*/
