@@ -53,6 +53,8 @@
 
 /*Fin Navbar*/
 /*Home*/
+/*Variables*/
+/*Variables*/
 .wrapper {
   width: 100vw;
   height: 75.6vh;
@@ -111,11 +113,20 @@ span {
 
 /*Fin Home */
 /*Trayectoria*/
+/*Variables*/
+/*Variables*/
 .section-trayectoria {
   background-image: url(../imagenes/fondo\ trayectoria.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 75.6vh;
+}
+.section-trayectoria .trayectoria .container .card {
+  width: 21%;
+}
+.section-trayectoria .trayectoria .container .card .card-body {
+  padding: 0.75rem 1rem;
 }
 
 .trayectoria {
@@ -127,7 +138,7 @@ span {
   color: #ffffff;
   display: inline;
   width: auto;
-  font-size: 3.5rem;
+  font-size: normal 3.5rem/1.5 "Raleway", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #26858f;
 }
@@ -136,8 +147,8 @@ span {
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 400;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -146,11 +157,6 @@ span {
   display: flex;
   width: 50%;
   justify-content: space-around;
-  padding-top: 10px;
-}
-
-.card {
-  width: 18rem;
 }
 
 /*Fin Trayectoria*/
@@ -160,6 +166,7 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 75.6vh;
 }
 
 .proyectos {
@@ -188,7 +195,10 @@ span {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding-top: 10px;
+}
+
+.card {
+  width: 245px;
 }
 
 /*Fin Proyectos*/
@@ -240,7 +250,8 @@ span {
   display: flex;
   justify-content: space-around;
   margin-top: -0.75rem;
-  width: 100%;
+  width: 75%;
+  margin-left: 185px;
 }
 
 .figma-card {
@@ -378,6 +389,8 @@ label {
 }
 
 /*Fin Contacto*/
+/*Variables*/
+/*Variables*/
 /*Footer*/
 .footer {
   display: flex;
@@ -462,6 +475,12 @@ label {
   .footer-content p {
     font-size: 3.5vw;
   }
+  .section-trayectoria {
+    height: auto;
+  }
+  .section-trayectoria .trayectoria .container .card {
+    width: 55%;
+  }
   .title {
     font-size: 2.5rem;
   }
@@ -478,6 +497,9 @@ label {
   }
   .card {
     margin-top: 20px;
+  }
+  .proyectos-section {
+    height: auto;
   }
   .title-pro {
     font-size: 2.5rem;
@@ -498,14 +520,25 @@ label {
   }
   .subtitle-sob {
     font-size: 1.3rem;
+    margin-bottom: 0rem;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .subtitles {
     font-size: 2.1rem;
   }
   .container-conocimientos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "figma html" "css sass";
+    margin-left: 51px;
+  }
+  .container-conocimientos .logos {
+    height: 125px;
+    width: 125px;
   }
   .contact-section {
     height: 130vh;
@@ -535,7 +568,7 @@ label {
   .info {
     width: 50vh;
     padding-left: 0;
-    margin-left: 50px;
+    margin-left: 35px;
   }
   .info li {
     font-size: 1.2rem;
@@ -589,5 +622,7 @@ label {
 }
 
 /*Mixins*/
+/*Variables*/
+/*Variables*/
 
 /*# sourceMappingURL=style.css.map */

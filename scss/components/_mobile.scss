@@ -54,7 +54,22 @@
     .footer-content p {
       font-size: 3.5vw;
     }
-  
+
+    .section-trayectoria {
+      height: auto;
+    }
+    .section-trayectoria{
+      
+      .trayectoria{
+
+        .container{
+
+          .card {
+            width: 55%;
+          }
+        }
+      }
+    }
     .title {
       font-size: 2.5rem;
     }
@@ -75,7 +90,11 @@
     .card {
       margin-top: 20px;
     }
-  
+
+    .proyectos-section {
+      height: auto;
+    }
+
     .title-pro {
       font-size: 2.5rem;
     }
@@ -100,6 +119,9 @@
   
     .subtitle-sob {
       font-size: 1.3rem;
+      margin-bottom: 0rem;
+      padding-left: 5%;
+      padding-right: 5%;
     }
   
     .subtitles {
@@ -107,9 +129,19 @@
     }
   
     .container-conocimientos {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "figma html"
+          "css sass";
+          margin-left: 51px;
+        .logos{
+            height: 125px;
+            width: 125px;
+        }
     }
   
     .contact-section {
@@ -146,7 +178,7 @@
     .info {
       width: 50vh;
       padding-left: 0;
-      margin-left: 50px;
+      margin-left: 35px;
   
       li {
           font-size: 1.2rem;

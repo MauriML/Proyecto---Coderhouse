@@ -1,4 +1,4 @@
-
+@import "../base/variables";
 /*Footer*/
 .footer {
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
     width: 100vw;
     height: 90px;
-    background-color: #0377E3;
+    background-color: $color-secundario;
     padding-top: 10px;
 }
 .social-network {

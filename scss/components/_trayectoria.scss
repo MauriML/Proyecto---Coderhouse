@@ -1,10 +1,25 @@
 /*Trayectoria*/
-
+@import "../base/variables";
 .section-trayectoria {
     background-image: url(../imagenes/fondo\ trayectoria.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 75.6vh;
+
+    .trayectoria {
+        
+        .container{
+
+            .card {
+                width: 21%;
+
+                .card-body{
+                    padding: 0.75rem 1rem;
+                }
+            }
+        }
+    }
 }
 .trayectoria {
     text-align: center;
@@ -14,7 +29,7 @@
     color: #ffffff;
     display: inline;
     width: auto;
-    font-size: 3.5rem;
+    font-size: $title-font;
     font-weight: 700;
     border-bottom: 1px solid #26858f;
 }
@@ -22,8 +37,8 @@
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 400;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -31,10 +46,6 @@
     display: flex;
     width: 50%;
     justify-content: space-around;
-    padding-top: 10px;
-}
-.card {
-    width: 18rem;
 }
 
 /*Fin Trayectoria*/

@@ -1,9 +1,9 @@
 /*Home*/
-
+@import "../base/variables";
 .wrapper {
     width: 100vw;
     height: 75.6vh;
-    background-color: #05091F;
+    background-color: $color-principal;
     color: #fff;
 }
 .section-home {
